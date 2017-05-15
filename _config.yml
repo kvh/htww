@@ -1,0 +1,16 @@
+name: How the World Works
+# Name of your site (displayed in the header)
+title: How the World Works
+# Short bio or description (displayed in the header)
+description: Ten books that will teach you how the world ACTUALLY works. Learn a superpower.
+markdown: kramdown
+highligther: pygments
+timezone: PST
+exclude: ['Gemfile', 'Gemfile.lock', '*.sublime-*', 'lib','vendor', 'Rakefile', 's3_website.yml']
+relative_permalinks: false
+url: howtheworldworks.co
+author: kvh
+gems:
+    - jekyll-feed
+sass:
+  style: compressed
